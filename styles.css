@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
+
+.btn{
+    @apply bg-blue-600 p-2 text-white text-center rounded-lg hover:bg-blue-800 active:bg-blue-400 cursor-pointer;
+}
+
 @tailwind utilities;
