@@ -103,7 +103,7 @@ getData(123)
         console.log(err)
     })
 
-Async Await
+// Async Await
 function getData(dataID){
     return new Promise((resolve,reject)=>{
         setTimeout(() => {
