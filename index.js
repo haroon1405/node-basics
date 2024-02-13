@@ -9,11 +9,11 @@ const app = express();
 const port = 3000;
 const filePath = path.join(__dirname, 'node_basics.html');
 
-app.get('/',(req,res)=>{
+app.get('/', (req,res)=>{
     res.sendFile(filePath)
 })
 
-app.get('/home',(req,res)=>{
+app.get('/home', (req,res)=>{
     res.send('<h1>Welcome To Home</h1><a href="/">Go Back</a>')
 })
 
